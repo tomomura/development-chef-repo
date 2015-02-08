@@ -5,6 +5,7 @@
     "rbenv::user",
     "vim",
     "tig",
+    "recipe[mysql::server]",
     "recipe[zsh]",
     "recipe[tmux]",
     "recipe[dotfiles]"
@@ -30,5 +31,10 @@
         }
       }
     ]
+  },
+  "mysql": {
+    "server_root_password": "mysql",
+    "remove_anonymous_users": true,
+    "remove_test_database": true
   }
 }
