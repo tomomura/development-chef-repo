@@ -4,6 +4,7 @@
     "ruby_build",
     "rbenv::user",
     "vim",
+    "tig",
     "recipe[zsh]",
     "recipe[tmux]",
     "recipe[dotfiles]"

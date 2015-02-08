@@ -4,6 +4,7 @@ DEPENDENCIES
     git: git://github.com/fnichol/chef-rbenv.git
     revision: 0a3018634bafe58ad21c6ee271af015220e444b9
   ruby_build
+  tig
   vim
   yum-ius
 
@@ -27,6 +28,8 @@ GRAPH
     build-essential (>= 0.0.0)
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
+  tig (0.1.1)
+    git (>= 0.0.0)
   vim (1.1.2)
   windows (1.36.1)
     chef_handler (>= 0.0.0)
