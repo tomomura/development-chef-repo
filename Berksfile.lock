@@ -1,0 +1,38 @@
+DEPENDENCIES
+  git
+  rbenv
+    git: git://github.com/fnichol/chef-rbenv.git
+    revision: 0a3018634bafe58ad21c6ee271af015220e444b9
+  ruby_build
+  vim
+  yum-ius
+
+GRAPH
+  build-essential (2.1.3)
+  chef_handler (1.1.6)
+  dmg (2.2.2)
+  git (4.1.0)
+    build-essential (>= 0.0.0)
+    dmg (>= 0.0.0)
+    runit (>= 1.0)
+    windows (>= 0.0.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
+  java (1.31.0)
+  rbenv (0.7.3)
+    java (> 1.4.0)
+    ruby_build (>= 0.0.0)
+  ruby_build (0.8.0)
+  runit (1.5.14)
+    build-essential (>= 0.0.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
+  vim (1.1.2)
+  windows (1.36.1)
+    chef_handler (>= 0.0.0)
+  yum (3.5.2)
+  yum-epel (0.6.0)
+    yum (~> 3.0)
+  yum-ius (0.4.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
